@@ -1,5 +1,7 @@
 # @orbit-logistics/notion-mcp-server
 
+[![smithery badge](https://smithery.ai/badge/@orbit-logistics/notion-mcp-server)](https://smithery.ai/server/@orbit-logistics/notion-mcp-server)
+
 An MCP server that mirrors the entire Notion API SDK as a collection of tools, enabling Large Language Models (LLMs) to interact with Notion seamlessly.
 
 ## Overview
@@ -13,6 +15,14 @@ Before using this server with Cursor or Claude Desktop, you must create a Notion
 [Notion Integration Getting Started](https://developers.notion.com/docs/create-a-notion-integration#getting-started)
 
 ## Usage
+
+### Installing via Smithery
+
+To install Notion MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@orbit-logistics/notion-mcp-server):
+
+```bash
+npx -y @smithery/cli install @orbit-logistics/notion-mcp-server --client claude
+```
 
 ### Using with Cursor
 
